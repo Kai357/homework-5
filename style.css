@@ -69,3 +69,29 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.time-card {
+  border: 1px solid black;
+  height: 50px;
+  display: flex;
+}
+.time {
+  height: 50px;
+  width: fit-content;
+  background-color: lightblue;
+  color: blue;
+}
+
+.input {
+  width: fit-content;
+  width: 91%;
+}
+
+.save-btn {
+  height: 50px;
+  position: absolute;
+  right: 55px;
+  background-color: lightblue;
+  color: blue;
+  border-color: blue;
+}
